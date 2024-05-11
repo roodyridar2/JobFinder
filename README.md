@@ -29,9 +29,9 @@ This web application serves as a comprehensive job board, connecting job seekers
 
 ## Technologies Used
 
-* **Backend:** [List your backend framework/languages - e.g., Python/Django, Node.js/Express]
-* **Frontend:** [List your frontend framework/libraries - e.g., React, Angular, Vue.js]
-* **Database:** [List your database - e.g., PostgreSQL, MySQL, MongoDB]
+* **Backend:** Laravel
+* **Frontend:** Blade/Bootrap
+* **Database:** MySQL
 
 ## Installation & Setup
 
@@ -40,5 +40,5 @@ This web application serves as a comprehensive job board, connecting job seekers
 3. **Set up environment variables:**
    * Create a `.env` file based on the `.env.example` file provided.
    * Fill in your database connection details, API keys, etc.
-4. **Run migrations:** `npm run migrate` (or equivalent command)
-5. **Start the development server:** `npm run dev` (or equivalent command)
+4. **Run migrations:** `npm run migrate --seed` 
+5. **Start the development server:** `npm run dev` 
