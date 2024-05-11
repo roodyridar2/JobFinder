@@ -40,5 +40,5 @@ This web application serves as a comprehensive job board, connecting job seekers
 3. **Set up environment variables:**
    * Create a `.env` file based on the `.env.example` file provided.
    * Fill in your database connection details, API keys, etc.
-4. **Run migrations:** `npm run migrate --seed` 
+4. **Run migrations:** `php artisan migrate:refresh --seed` 
 5. **Start the development server:** `npm run dev` 
